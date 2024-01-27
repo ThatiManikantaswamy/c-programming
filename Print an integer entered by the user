@@ -1,0 +1,12 @@
+#include<stdio.h>
+int main(){
+	int n;
+	printf("enter the integer:");
+	scanf("%d",&n);
+	printf("you entered %d",n);
+	return 0;
+}
+
+OUTPUT :
+enter the integer:12
+you entered 12
