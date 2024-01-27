@@ -1,0 +1,19 @@
+#include<stdio.h>
+int main(){
+	int n;
+	printf("enter the number:");
+	scanf("%d",&n);
+	if(n%5==0&&n%11==0)
+	printf("it is divisible by both 5 and 11");
+	else if(n%5==0)
+	printf("it is divible by 5");
+	else if(n%11==0)
+	printf("it is divisble by 11");
+	else
+	printf("it is not divisble by both 5 and 11");
+	return 0;
+}
+
+OUTPUT :
+enter the number:110
+it is divisible by both 5 and 11
